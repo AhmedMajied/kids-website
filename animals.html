@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Animals</title>
+    <link rel="stylesheet" type="text/css" href="css\bootstrap.min.css" />
+   	<link rel="stylesheet" type="text/css" href="css\animals sounds.css">
+   	<script type="text/javascript" src="js\jquery-3.1.1.min.js"></script>
+	<script type="text/javascript" src="js\animals sounds.js"></script>
+    <script src="js\bootstrap.min.js"></script>
+    <link rel="icon" href="images/logo.png" type="image/x-icon">
+  </head>
+  <body>
+      <div class="container">
+          <nav class="navbar navbar-default">
+          <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand" href="#">BabyToon</a>
+                <a class="navbar-brand" href="#"><img src="images/logo.png" id="logo"/></a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+              <ul class="nav navbar-nav">
+                <li><a href="index.html">Home <span class="sr-only">(current)</span></a></li>
+              </ul>
+              <ul class="nav navbar-nav navbar-right">
+                <li><a href="songs.html">Songs</a></li>
+                  <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Pronunciation<span class="caret"></span></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="animals.html">Animals</a></li>
+                    <li><a href="alphabet.html">Alphabet</a></li>
+                  </ul>
+                </li>
+                <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Cartoon <span class="caret"></span></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="cartoonTom.html">Tom & Jerry</a></li>
+                    <li><a href="cartoonSponge.html">Sponge Bob</a></li>
+                    <li><a href="cartoonSheep.html">Shaun the sheep</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </div><!-- /.navbar-collapse -->
+          </div><!-- /.container-fluid -->
+        </nav>
+        <br><br><br>
+          <div class="row">
+            <div class="col-lg-4 col-xs-6 col-md-6">
+                <center>
+                    <img src="images\lion.jpg" id="lion" onclick="function1()" class="pic" >
+                </center>
+            </div>
+            <div class="col-lg-4 col-xs-6 col-md-6">
+                <center>
+                    <img src="images\cat.jpg" id="cat" onclick="function3()" class="pic">    
+                </center>
+            </div>
+            <div class="col-lg-4 col-xs-6 col-md-6">
+                <center>
+                    <img src="images\bird.jpg" id="bird" onclick="function4()" class="pic">
+                </center>
+            </div>
+          </div>
+          <br><br>
+          <div class="row">
+            <div class="col-lg-4 col-xs-6 col-md-6">
+                <center>
+                    <img src="images\horse.jpg" id="horse" onclick="function2()" class="pic">
+                </center>
+            </div>
+            <div class="col-lg-4 col-xs-6 col-md-6">
+                <center>
+                    <img src="images\dog.jpg" id="dog" onclick="function5()" class="pic">
+                </center>
+            </div>
+            <div class="col-lg-4 col-xs-6 col-md-6">
+                <center>
+                    <img src="images\duck.jpg" id="duck" onclick="function6()" class="pic">
+                </center>
+            </div>
+          </div>
+          
+          <audio src="audios\lion.mp3" id="oline"></audio>
+          <audio src="audios\horse.mp3" id="ohorse"></audio>
+          <audio src="audios\dog.mp3" id="odog"></audio>
+          <audio src="audios\duck.mp3" id="oduck"></audio>
+          <audio src="audios\bird.mp3" id="obird"></audio>
+          <audio src="audios\cat.mp3" id="ocat"></audio>
+        
+          <br>
+          <div class="row">
+            <div class="col-lg-12">
+                <center>
+                    <button  onclick="myfunction1()" id="back" class="btn btn-default">back</button>
+                </center>
+            </div>
+          </div>
+          
+      </div>
+</body>
+</html>

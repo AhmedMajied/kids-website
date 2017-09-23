@@ -1,0 +1,88 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+body{
+    background: #F5F5F5;
+    overflow-x: hidden;
+}
+
+h1{
+    position: absolute;
+    top: 2%;
+    left:42%;
+    font-size: 150%;
+    color:orange;
+    font-weight: bold;
+}
+
+#score{
+    position: absolute;
+    top: 9%;
+    left:43.5%;
+    font-size: 150%;
+    color:orange;
+    font-weight: bold;
+}
+
+#operation{
+    display:inline-block;
+    color:red;
+    font-size: 350%;
+}
+
+#equal{
+    display: inline-block;
+    visibility:hidden;
+    font-size: 350%;
+    color:blue;
+    padding-left:2%;
+    padding-right: 2%;
+}
+
+#result{
+    width:5.7%;
+    display:none;
+    padding: 0.3%;
+    text-align: center;
+    font-size: 260%;
+    color: coral;
+    outline: none;
+    border-radius: 37%;
+    border-color:darkviolet;
+}
+
+#answer{
+    float:right;
+    display: none;
+    color:yellow;
+    background:brown;
+    padding:1% 2%;
+    border-radius: 50%;
+}
+
+#right{
+    position: absolute;
+    display: none;
+    top:30%;
+    left:3%;
+    width: 0%;
+    height:0%;
+}
+
+#wrong{
+    position: absolute;
+    display: none;
+    top:30%;
+    right:3%;
+    width: 0%;
+    height:0%;
+}
+
+#continue{
+    position: absolute;
+    bottom: 0;
+    padding: 1%;
+    display: none;
+}

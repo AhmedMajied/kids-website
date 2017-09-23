@@ -1,0 +1,134 @@
+.container{
+    padding: 0%;
+    width:100%;
+}
+.container-fluid{
+    background:#26C6DA;
+}
+.navbar-default .navbar-nav>li>a{
+    color:white;
+}
+#pic1
+{
+	float: right;
+}
+#pic2
+{
+	float: right;
+}
+#pic3
+{
+	float: right;
+}
+#pic4
+{
+	float: right;
+}
+#pic5
+{
+	float: right;
+}
+#pic6
+{
+	float: right;
+}
+#pic7
+{
+	float: right;
+}
+#pic8
+{
+	float: right;
+}
+#pic9
+{
+	float: right;
+}
+#pic10
+{
+	float: right;
+}
+#pic11
+{
+	float: right;
+}
+#pic12
+{
+	float: right;
+}
+#pic13
+{
+	float: right;
+}
+#pic14
+{
+	float: right;
+}
+#pic15
+{
+	float: right;
+}
+#pic16
+{
+	float: right;
+}
+#pic17
+{
+	float: right;
+}
+#pic18
+{
+	float: right;
+}
+#pic19
+{
+	float: right;
+}
+#pic20
+{
+	float: right;
+}
+#pic21
+{
+	float: right;
+}
+#pic22
+{
+	float: right;
+}
+#pic23
+{
+	float: right;
+}
+#pic24
+{
+	float: right;
+}
+#pic25
+{
+	float: right;
+}
+#pic26
+{
+	float: right;
+}
+#pic27
+{
+	float: right;
+}
+#pic28
+{
+	float: right;
+}
+#back
+{
+	display: none;
+}
+body{
+    background: #F5F5F5;
+    overflow-x: hidden;
+}
+#logo{
+    width:'10%';
+    height:100%;
+}

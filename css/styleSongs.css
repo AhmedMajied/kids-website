@@ -1,0 +1,32 @@
+.container{
+    padding: 0%;
+    width:100%;
+}
+.container-fluid{
+    background:#26C6DA;
+}
+.navbar-default .navbar-nav>li>a{
+    color:white;
+}
+body{
+    background: #F5F5F5;
+    overflow-x: hidden;
+}
+.navbar-default .navbar-nav>.active>a{
+    border-radius: 20%;
+}
+#logo{
+    width:'10%';
+    height:100%;
+}
+.glyphicon{
+    font-size: 230%;
+    line-height: 950%; 
+}
+.glyphicon-chevron-left{
+    float: right;
+}
+#video{
+    border: none;
+    border-radius: 10%;
+}

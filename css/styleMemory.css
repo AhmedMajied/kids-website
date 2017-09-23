@@ -1,0 +1,18 @@
+img{
+	width:15%;
+	height:25%;
+	margin-top:6%;
+}
+
+.first{
+	padding-left:12%;
+}
+
+#div1{
+	width:30%;
+	height:30%;
+}
+body{
+    background: #F5F5F5;
+    overflow-x: hidden;
+}
